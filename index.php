@@ -46,9 +46,7 @@
             </form>
           </div>
     </section>
-
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
   </html>
 
@@ -56,7 +54,6 @@
     include('config/conexion.php');
 
     error_reporting(0);
-
     $id=  $_POST['txtid'];
     $nom= $_POST['txtnom'];
     $ape= $_POST['txtape'];
@@ -71,5 +68,4 @@
         echo "<script>M.toast({html: 'Error, No se puedo Guardar', classes: 'rounded red'});</script>";
       }
     }
-
    ?>
