@@ -41,7 +41,7 @@
                 </div>
               </div>
               <button class="btn waves-effect waves-light" type="submit" name="btnguardar">Guardar
-              <i class="material-icons right">send</i>
+              <i class="material-icons right">send1</i>
               </button>
             </form>
           </div>
@@ -71,8 +71,5 @@
         echo "<script>M.toast({html: 'Error, No se puedo Guardar', classes: 'rounded red'});</script>";
       }
     }
-
-
-
 
    ?>

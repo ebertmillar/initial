@@ -6,5 +6,4 @@
 	$bd = "prueba";
 
 	$conexion = new mysqli($host, $user, $pass, $bd);
-
 ?>
